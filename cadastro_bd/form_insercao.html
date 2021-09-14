@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- cadastro.html -->
+<html>
+	<head>
+	  <title>Cadastro de curso</title>
+	  <meta charset="utf-8">
+	</head>
+	<body>
+	<h1>Cadastrar novo curso</h1>
+		<form action="insercao.php" 
+		      method="GET">
+			<label for="id_curso">
+			Curso:
+			</label>
+			<input type="text" name="curso">
+			<br>
+                        
+                        <label for="id_nr_carga_horaria">
+			Carga Horária:
+			</label>
+			<input type="number" name="nr_carga_horaria" id="nr_carga_horaria">
+			<br>
+                        
+                        <label for="id_dt_inicio">
+			Dt. Início:
+			</label>
+			<input type="date" name="dt_inicio" id="dt_inicio">
+			<br>
+		
+			<input type="submit" value="Ok">
+		</form>
+	</body>
+</html>
